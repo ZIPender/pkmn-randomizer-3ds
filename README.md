@@ -57,8 +57,11 @@ please report what you find. English releases are the tested ones.
   <img src="media/screens.png" width="100%" alt="Four steps on the 3DS: pick a game, choose a style, roll a seed, play your new game.">
 </p>
 
-1. Put your ROM files (`.gb .gbc .gba .nds`, decrypted `.3ds/.cxi`) in
-   `sd:/roms`. Installed 3DS games and the game card are found by themselves.
+1. Put your ROM files (`.gb .gbc .gba .nds`, decrypted `.3ds/.cci/.cxi`) in
+   `sd:/roms` or folders inside it. The app also looks at the SD card's root
+   and the folders right under it (not system ones like `Nintendo 3DS`,
+   `luma` or `3ds`), and **Options › Folders** adds any other folder.
+   Installed 3DS games and the game card are found by themselves.
 2. Tap **Randomize**, pick a game and a style: **Casual**, **Standard**,
    **Chaos**, or **Custom**, where the top screen explains every option.
 3. Keep or roll a seed, then **Generate**. The same game, seed and settings
@@ -82,8 +85,9 @@ or on a flashcart.
 <details>
 <summary><b>Troubleshooting</b></summary>
 
-- **A game is missing:** check that the file is in `sd:/roms` (up to three
-  folders deep) and is a clean, decrypted dump, then press X on the game list.
+- **A game is missing:** check that the file is in `sd:/roms` (or at most two
+  folders inside it), or add its folder in **Options › Folders**, and that it
+  is a clean, decrypted dump, then press X on the game list.
 - **FBI's QR install stalls at 0%:** your 3DS can't reach GitHub over HTTPS.
   Use the manual install.
 - **"Something went wrong":** the dump looks modified or damaged. Your game
