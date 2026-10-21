@@ -47,8 +47,9 @@ to `sd:/3ds/` for the Homebrew Launcher. Version 1.x is upgraded in place.
 | 6 | X, Y, Omega Ruby, Alpha Sapphire | its own HOME Menu title, or a Luma3DS game patch |
 | 7 | Sun, Moon, Ultra Sun, Ultra Moon | its own HOME Menu title, or a Luma3DS game patch |
 
-Gen 1–5 were tested on real games, and Pokémon Y was randomized and played on
-a New 3DS XL. The other Gen 6 and 7 games haven't run on a console yet:
+Gen 1–5 were tested on real games, and Pokémon Y and Omega Ruby were
+randomized and played on a New 3DS XL. The other Gen 6 and 7 games haven't run
+on a console yet:
 please report what you find. English releases are the tested ones.
 
 ## How it works
@@ -66,7 +67,10 @@ please report what you find. English releases are the tested ones.
    **Chaos**, or **Custom**, where the top screen explains every option.
 3. Keep or roll a seed, then **Generate**. The same game, seed and settings
    code always give the same result, so you can race friends.
-4. Open it from **Randomized games**: **How to play** says how to start it.
+4. The game is saved in its own folder, like
+   `sd:/3ds/pokemon-randomizer/randomized/Emerald-Randomized-U4DM/`, with its
+   spoiler log (**Options** can change where). Open it from
+   **Randomized games**: **How to play** says how to start it.
 
 **What changes:** starters, wild Pokémon, trainers, legendaries and gifts,
 in-game trades, stats, types, abilities, evolutions, moves and TMs, and items
@@ -74,7 +78,7 @@ on the ground, with a spoiler log for when you're stuck.
 
 **3DS games** can become their own HOME Menu title, with their own icon and
 save: turn on **HOME** on the seed screen. It is a full copy of the game
-(Y took about 45 minutes on a New 3DS XL) and is still being tested on
+(about 50 minutes on a New 3DS XL) and is still being tested on
 consoles. The quick way is **Activate in Luma**, which plays it through
 Luma3DS game patching with the original game's save, so back that save up
 with Checkpoint first.
