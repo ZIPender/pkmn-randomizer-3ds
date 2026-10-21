@@ -47,10 +47,9 @@ to `sd:/3ds/` for the Homebrew Launcher. Version 1.x is upgraded in place.
 | 6 | X, Y, Omega Ruby, Alpha Sapphire | its own HOME Menu title, or a Luma3DS game patch |
 | 7 | Sun, Moon, Ultra Sun, Ultra Moon | its own HOME Menu title, or a Luma3DS game patch |
 
-Gen 1–5 were tested on real games, and Pokémon Y and Omega Ruby were
-randomized and played on a New 3DS XL. The other Gen 6 and 7 games haven't run
-on a console yet:
-please report what you find. English releases are the tested ones.
+At least one game of every generation was randomized and played on a New 3DS
+XL. English releases are the tested ones; please report anything that goes
+wrong.
 
 ## How it works
 
