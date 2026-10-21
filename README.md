@@ -18,8 +18,9 @@ with a touch-friendly interface on both screens.
 | 6 | X, Y, Omega Ruby, Alpha Sapphire | Luma3DS game patch |
 | 7 | Sun, Moon, Ultra Sun, Ultra Moon | Luma3DS game patch |
 
-2.0 is new: Gen 1–5 were tested on real games; Gen 6 and 7 have not yet run
-on a real console. Please report what you find.
+2.0 is new: Gen 1–5 were tested on real games, and Pokémon Y was randomized
+and played on a New 3DS XL. The other Gen 6 and 7 games have not run on a
+real console yet. Please report what you find.
 
 ## Requirements
 
