@@ -10,6 +10,8 @@
   <a href="https://github.com/ZIPender/pkmn-randomizer-3ds/issues">Report a bug</a>
 </p>
 
+https://github.com/user-attachments/assets/d342736b-993f-4d23-9c72-dccd30c7d746
+
 <p align="center">
   <img src="media/demo.gif" width="400" alt="The app's two screens: pick Pokemon Emerald, choose the Standard style, roll a seed and press Generate. The randomized game is ready in 7 seconds, with its spoiler log.">
 </p>
