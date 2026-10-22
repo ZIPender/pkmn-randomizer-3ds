@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.0.1: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
+  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.1.0: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
 </p>
 
 <p align="center">
@@ -72,8 +72,13 @@ wrong.
    **Randomized games**: **How to play** says how to start it.
 
 **What changes:** starters, wild Pokémon, trainers, legendaries and gifts,
-in-game trades, stats, types, abilities, evolutions, moves and TMs, and items
-on the ground, with a spoiler log for when you're stuck.
+in-game trades, stats, types, abilities, evolutions, moves and TMs, items
+on the ground, and the shiny odds of wild Pokémon (Gen 2 and Gen 4 to 7),
+with a spoiler log for when you're stuck.
+
+**Updates:** the app checks GitHub for a new version when it starts and asks
+before downloading it (turn it off in **Options › Check for updates**). It
+works from version 2.1.0 on; older versions update with the QR code.
 
 **3DS games** can become their own HOME Menu title, with their own icon and
 save: turn on **HOME** on the seed screen. It is a full copy of the game
@@ -104,3 +109,6 @@ with the game and region, the seed and settings code, and what you saw.
 
 Unofficial fan project, not affiliated with Nintendo, Game Freak, Creatures
 or The Pokémon Company. It contains no game data: use games you own.
+
+The app includes curl, Mbed TLS and zlib for its update check: see
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
