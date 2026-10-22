@@ -2,17 +2,18 @@
 
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
-**2.1 beta 2** is a test build of the next version. The stable version, 2.0,
+**2.1 beta 3** is a test build of the next version. The stable version, 2.0,
 is on the [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
 
-Beta 1 closed at start on a New 3DS with "An exception occurred". Beta 2
-fixes that: scan the code again to update.
+New in beta 3: Sun, Moon, Ultra Sun and Ultra Moon downloaded from the eShop
+can be read ("short read in game image" before). Beta 2 fixed a crash at
+start on a New 3DS. Scan the code again to update.
 
 1. On your 3DS, open **FBI** › **Remote Install** › **Scan QR Code**.
 2. Point the camera at this code. It always installs the newest beta, over
    the version you have: your settings and randomized games stay.
 3. Start **Pokemon Randomizer** from the HOME Menu. The first screen says
-   **Version 2.1 beta 2**.
+   **Version 2.1 beta 3**.
 
 No camera handy? Copy `pokemon-randomizer.cia` from the
 [beta release](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/beta-latest)
@@ -26,9 +27,11 @@ the installed app gets more memory than the Homebrew Launcher one.
   now needs much less (X and Y went from 55 MB to 12 MB, Platinum from 31 MB
   to 19 MB) and keeps more of that memory for randomizing. GB and GBA games
   were never affected.
-- **"Missing game file a/0/1/1"** with Ultra Sun and Ultra Moon. When the
-  app could not open the installed game's own files, it went on with the
-  update's files alone. It now stops and shows the real error.
+- **"Missing game file a/0/1/1"** with Ultra Sun and Ultra Moon. eShop
+  copies of Sun, Moon, Ultra Sun and Ultra Moon are locked with an extra key
+  (a seed) that the app did not pass to the console, so it went on with the
+  update's files alone. It now reads them with that key, and shows the real
+  error if a game still can't be read.
 - If the console still runs out of memory, the message says so, and the log
   records memory use at each step.
 
