@@ -2,9 +2,9 @@
 
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
-**No beta in testing right now.** 2.1 beta 3 became the
-[2.0.1 release](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/2.0.1).
-Until the next beta comes out, this QR code installs 2.0.1, the same as the
+**No beta in testing right now.** The latest release is
+[2.1.0](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/2.1.0).
+Until the next beta comes out, this QR code installs 2.1.0, the same as the
 [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
 
 Thanks to everyone who tested the betas and sent their logs: the Old 3DS /
@@ -27,3 +27,6 @@ comes from, the settings code and seed, and the file
 
 Unofficial fan project, not affiliated with Nintendo, Game Freak, Creatures
 or The Pokémon Company. It contains no game data: use games you own.
+
+The app includes curl, Mbed TLS and zlib for its update check: see
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
