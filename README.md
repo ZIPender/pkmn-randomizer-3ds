@@ -2,14 +2,17 @@
 
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
-**2.1 beta 1** is a test build of the next version. The stable version, 2.0,
+**2.1 beta 2** is a test build of the next version. The stable version, 2.0,
 is on the [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
+
+Beta 1 closed at start on a New 3DS with "An exception occurred". Beta 2
+fixes that: scan the code again to update.
 
 1. On your 3DS, open **FBI** › **Remote Install** › **Scan QR Code**.
 2. Point the camera at this code. It always installs the newest beta, over
    the version you have: your settings and randomized games stay.
 3. Start **Pokemon Randomizer** from the HOME Menu. The first screen says
-   **Version 2.1 beta 1**.
+   **Version 2.1 beta 2**.
 
 No camera handy? Copy `pokemon-randomizer.cia` from the
 [beta release](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/beta-latest)
