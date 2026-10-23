@@ -279,3 +279,18 @@ https://zlib.net
 - The Pixel Operator font by Jayvee Enaguas (CC0).
 - The root certificates the updater trusts are copies of public CA
   certificates from the Mozilla root store.
+
+## Pokémon sprites (HOME Menu banner)
+
+The HOME Menu banner of `pokemon-randomizer.cia` uses fan-made sprites from
+the PMD Sprite Repository (https://sprites.pmdcollab.org/), licensed
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). They were
+resized, recoloured and glitched for the banner.
+
+- Zorua (0570, Normal, idle): Emmuffin, baronessfaron
+- Mimikyu (0778, Normal, idle): JFain, G〜, baronessfaron
+- Trubbish (0568, Normal, idle): powercristal, cyboy_bit
+- Mega Gardevoir (0282, Mega, idle): baronessfaron
+- Sylveon (0700, Normal, idle): baronessfaron
+
+All other artwork in the app is original.
