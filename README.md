@@ -13,7 +13,7 @@
 https://github.com/user-attachments/assets/b636478c-fd76-4750-8825-a313927260f2
 
 <p align="center">
-  <img src="media/demo.gif" width="400" alt="The app's two screens: pick Pokemon Emerald, choose the Standard style, roll a seed and press Generate. The randomized game is ready in 7 seconds, with its spoiler log.">
+  <img src="media/demo.gif" width="400" alt="The app's two screens: pick Pokemon Emerald, choose the Standard style, roll a seed and press Generate. The top screen fills a Poke Ball as it works, and the randomized game is ready in 7 seconds, with its spoiler log.">
 </p>
 
 Pick one of your games, choose a style, and the 3DS builds a randomized copy:
