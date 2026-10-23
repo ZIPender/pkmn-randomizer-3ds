@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.1.0: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
+  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.1.1: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
 </p>
 
 <p align="center">
@@ -62,8 +62,9 @@ wrong.
 1. Put your ROM files (`.gb .gbc .gba .nds`, decrypted `.3ds/.cci/.cxi`) in
    `sd:/roms` or folders inside it. The app also looks at the SD card's root
    and the folders right under it (not system ones like `Nintendo 3DS`,
-   `luma` or `3ds`), and **Options › Folders** adds any other folder.
-   Installed 3DS games and the game card are found by themselves.
+   `luma` or `3ds`). **Options › Scan folders** adds any other folder, or
+   leaves one out with everything inside it. Installed 3DS games and the
+   game card are found by themselves.
 2. Tap **Randomize**, pick a game and a style: **Casual**, **Standard**,
    **Chaos**, or **Custom**, where the top screen explains every option.
 3. Keep or roll a seed, then **Generate**. The same game, seed and settings
@@ -75,12 +76,15 @@ wrong.
 
 **What changes:** starters, wild Pokémon, trainers, legendaries and gifts,
 in-game trades, stats, types, abilities, evolutions, moves and TMs, items
-on the ground, and the shiny odds of wild Pokémon (Gen 2 and Gen 4 to 7),
-with a spoiler log for when you're stuck.
+on the ground, and the shiny odds of wild Pokémon (Gen 2 and Gen 4 to 7:
+pick a preset or type your own, like 1 in 36), with a spoiler log for when
+you're stuck.
 
 **Updates:** the app checks GitHub for a new version when it starts and asks
 before downloading it (turn it off in **Options › Check for updates**). It
-works from version 2.1.0 on; older versions update with the QR code.
+works from version 2.1.0 on; older versions update with the QR code. After
+an update, the app shows once what's new, and **Options › What's new** lists
+every version's changes.
 
 **3DS games** can become their own HOME Menu title, with their own icon and
 save: turn on **HOME** on the seed screen. It is a full copy of the game
@@ -96,8 +100,9 @@ or on a flashcart.
 <summary><b>Troubleshooting</b></summary>
 
 - **A game is missing:** check that the file is in `sd:/roms` (or at most two
-  folders inside it), or add its folder in **Options › Folders**, and that it
-  is a clean, decrypted dump, then press X on the game list.
+  folders inside it), or add its folder in **Options › Scan folders** (and
+  that it isn't in an excluded folder), and that it is a clean, decrypted
+  dump, then press X on the game list.
 - **FBI's QR install stalls at 0%:** your 3DS can't reach GitHub over HTTPS.
   Use the manual install.
 - **"Something went wrong":** the dump looks modified or damaged. Your game
