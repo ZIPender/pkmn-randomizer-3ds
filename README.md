@@ -2,14 +2,14 @@
 
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
-**2.1.1 beta 1** is a test build of the next version. The stable version,
+**2.1.1 beta 2** is a test build of the next version. The stable version,
 2.1.0, is on the [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
 
 1. On your 3DS, open **FBI** › **Remote Install** › **Scan QR Code**.
 2. Point the camera at this code. It always installs the newest beta, over
    the version you have: your settings and randomized games stay.
 3. Start **Pokemon Randomizer** from the HOME Menu. The first screen says
-   **Version 2.1.1 beta 1**.
+   **Version 2.1.1 beta 2**.
 
 No camera handy? Copy `pokemon-randomizer.cia` from the
 [beta release](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/beta-latest)
@@ -31,6 +31,9 @@ the installed app gets more memory than the Homebrew Launcher one.
   **Options › Scan folders › Exclude**. An excluded folder and everything
   inside it are never searched, so games you don't want to randomize (fan-made
   games, for example) stay out of the list.
+- **What's new** (new in beta 2). After an update, the app shows once what
+  the new version brings, and **Options › What's new** lists every version's
+  changes.
 
 Settings codes from 2.1.0 give the same games. A code with custom odds is 5
 characters longer and needs this beta or newer.
@@ -41,6 +44,9 @@ characters longer and needs this beta or newer.
   Pearl, HeartGold and SoulSilver at 1**: play a few routes, get an egg or a
   gift Pokémon, and tell us if anything freezes.
 - Excluded folders with your own folders.
+- Installing over an older version (2.1.0 or beta 1): the **What's new** card
+  shows once, then never again for this version. A first install shows
+  nothing.
 - When 2.1.1 comes out, the app offers it by itself.
 
 ## Report what you see
