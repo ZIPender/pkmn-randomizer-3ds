@@ -2,14 +2,14 @@
 
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
-**2.2.0 beta 2** is a test build of the next version. The stable version,
+**2.2.0 beta 3** is a test build of the next version. The stable version,
 2.1.2, is on the [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
 
 1. On your 3DS, open **FBI** › **Remote Install** › **Scan QR Code**.
 2. Point the camera at this code. It always installs the newest beta, over
    the version you have: your settings and randomized games stay.
 3. Start **Pokemon Randomizer** from the HOME Menu. The first screen says
-   **Version 2.2.0 beta 2**.
+   **Version 2.2.0 beta 3**.
 
 No camera handy? Copy `pokemon-randomizer.cia` from the
 [beta release](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/beta-latest)
@@ -17,13 +17,26 @@ to the SD card and install it with FBI. Use the CIA rather than the `.3dsx`:
 the installed app gets more memory than the Homebrew Launcher one, and only
 the installed app can put games on the HOME Menu.
 
-## What's new in this beta
+## New in beta 3
+
+- **Your game's name on the HOME Menu.** A GB, GBC, GBA or DS game you add
+  to the HOME Menu now shows the name you gave it, with the game under it
+  ("Pokemon White, randomized").
+- **Its own animated banner.** The app's banner (the ball hops and opens,
+  Pokémon glitch through) with your name as the title, scrambled in the
+  glitches, and the game under the ball. Short names are big, long ones
+  wrap onto more lines: any name from 1 to 40 characters fits.
+- **Icons.** DS games use their own icon, read from your game. GB, GBC and
+  GBA games, which have none, get a new icon drawn in the same style.
+- Titles you added with beta 2 keep their old name and banner: remove them
+  from the HOME Menu (on the game's page) and add them again.
+
+## Also in 2.2.0
 
 - **Every generation on the HOME Menu.** Like 3DS games already could, a
-  randomized Gen 1 to 5 game now gets its own HOME Menu icon: turn on
-  **HOME** on the seed screen (X), or pick **Add to HOME Menu** on the
-  game's page. It needs the CIA build, started from the HOME Menu, and
-  Luma3DS.
+  randomized Gen 1 to 5 game gets its own HOME Menu icon: turn on **HOME**
+  on the seed screen (X), or pick **Add to HOME Menu** on the game's page.
+  It needs the CIA build, started from the HOME Menu, and Luma3DS.
   - **GBA games** (Ruby, Sapphire, Emerald, FireRed, LeafGreen) become a
     Virtual Console title that runs in the 3DS's own GBA mode, with its own
     save (about 17 MB, a minute to install). Quit with **HOME**, then **A**:
@@ -50,17 +63,19 @@ the installed app can put games on the HOME Menu.
     is on. Trade evolutions need **No trade evolutions** (on by default).
   - It can't be on with **Similar strength**: turn that off first.
   - The spoiler log's Wild section says how many families made it.
-- From beta 1: **shiny odds for Gen 3** (Ruby to LeafGreen, 1 in 8192 up to
-  1 in 2), and the Black 2 and White 2 World Tournament levels in the
-  spoiler log.
+- **Shiny odds for Gen 3** (Ruby to LeafGreen, 1 in 8192 up to 1 in 2), and
+  the Black 2 and White 2 World Tournament teams show their real levels in
+  the spoiler log.
 
 ## What to test
 
+- Add a game to the HOME Menu with a custom name: the balloon shows your
+  name, and the banner shows it too, without spilling out. Try a short name
+  and a long one.
 - A **DS game** on the HOME Menu, with the YANBF Forwarder Pack installed:
-  add it, start it from its icon, save, and start it again.
+  its own icon, start it from there, save, and start it again.
 - A **GB or GBC game** on the HOME Menu, with "[git] mgba.cia" installed:
   the same.
-- Without those tools installed, the app should say which one to get.
 - A **GBA game** on the HOME Menu: play, save (HOME, then A), start again.
 - **Every family catchable**: Standard style with Similar strength off, or
   Chaos, then this option. The spoiler log should say every family is in
