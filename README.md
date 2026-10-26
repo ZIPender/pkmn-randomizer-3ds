@@ -2,20 +2,29 @@
 
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
-**2.2.0 beta 3** is a test build of the next version. The stable version,
+**2.2.0 beta 4** is a test build of the next version. The stable version,
 2.1.2, is on the [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
 
 1. On your 3DS, open **FBI** › **Remote Install** › **Scan QR Code**.
 2. Point the camera at this code. It always installs the newest beta, over
    the version you have: your settings and randomized games stay.
 3. Start **Pokemon Randomizer** from the HOME Menu. The first screen says
-   **Version 2.2.0 beta 3**.
+   **Version 2.2.0 beta 4**.
 
 No camera handy? Copy `pokemon-randomizer.cia` from the
 [beta release](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/beta-latest)
 to the SD card and install it with FBI. Use the CIA rather than the `.3dsx`:
 the installed app gets more memory than the Homebrew Launcher one, and only
 the installed app can put games on the HOME Menu.
+
+## New in beta 4
+
+- **The real time.** "Made in" on the result screen now counts the whole
+  wait, the HOME Menu step included (an Emerald said 19 s for about 3
+  minutes).
+- **No more "stuck at 50%".** When a game is added to the HOME Menu, the
+  system takes a while to start the install. The bar now says step 2,
+  "installing", during that wait instead of sitting on step 1.
 
 ## New in beta 3
 
