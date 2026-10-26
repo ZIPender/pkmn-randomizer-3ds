@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.2.0: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
+  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.2.1: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
 </p>
 
 <p align="center">
@@ -71,7 +71,8 @@ wrong.
    code always give the same result, so you can race friends.
 4. The game is saved in its own folder, like
    `sd:/3ds/pokemon-randomizer/randomized/Emerald-Randomized-U4DM/`, with its
-   spoiler log (**Options** can change where). Open it from
+   spoiler log (**Options › Randomized games folder** can change where, and
+   its **+** makes a new folder). Open it from
    **Randomized games**: **How to play** says how to start it.
 
 **What changes:** starters, wild Pokémon, trainers, legendaries and gifts,
