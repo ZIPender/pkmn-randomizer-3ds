@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.1.2: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
+  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.2.0: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
 </p>
 
 <p align="center">
@@ -41,11 +41,11 @@ to `sd:/3ds/` for the Homebrew Launcher. Version 1.x is upgraded in place.
 
 | Gen | Games | You get |
 | --- | --- | --- |
-| 1 | Red, Blue, Yellow | `.gb` |
-| 2 | Gold, Silver, Crystal | `.gbc` |
-| 3 | Ruby, Sapphire, Emerald, FireRed, LeafGreen | `.gba` |
-| 4 | Diamond, Pearl, Platinum, HeartGold, SoulSilver | `.nds` |
-| 5 | Black, White, Black 2, White 2 | `.nds` |
+| 1 | Red, Blue, Yellow | `.gb`, and a HOME Menu icon that starts it in mGBA |
+| 2 | Gold, Silver, Crystal | `.gbc`, and a HOME Menu icon that starts it in mGBA |
+| 3 | Ruby, Sapphire, Emerald, FireRed, LeafGreen | `.gba`, and its own HOME Menu title (Virtual Console) |
+| 4 | Diamond, Pearl, Platinum, HeartGold, SoulSilver | `.nds`, and a HOME Menu icon that starts it with nds-bootstrap |
+| 5 | Black, White, Black 2, White 2 | `.nds`, and a HOME Menu icon that starts it with nds-bootstrap |
 | 6 | X, Y, Omega Ruby, Alpha Sapphire | its own HOME Menu title, or a Luma3DS game patch |
 | 7 | Sun, Moon, Ultra Sun, Ultra Moon | its own HOME Menu title, or a Luma3DS game patch |
 
@@ -76,9 +76,11 @@ wrong.
 
 **What changes:** starters, wild Pokémon, trainers, legendaries and gifts,
 in-game trades, stats, types, abilities, evolutions, moves and TMs, items
-on the ground, and the shiny odds of wild Pokémon (Gen 2 and Gen 4 to 7:
-pick a preset or type your own, like 1 in 36), with a spoiler log for when
-you're stuck.
+on the ground, and the shiny odds of wild Pokémon (Gen 2 to 7: pick a
+preset or type your own, like 1 in 36), with a spoiler log for when you're
+stuck. **Every family catchable** (Customize › Wild) gives the first form of
+every evolution family a wild spot, so the whole Pokédex can be filled in one
+game.
 
 **Updates:** the app checks GitHub for a new version when it starts and asks
 before downloading it (turn it off in **Options › Check for updates**). It
@@ -86,15 +88,26 @@ works from version 2.1.0 on; older versions update with the QR code. After
 an update, the app shows once what's new, and **Options › What's new** lists
 every version's changes.
 
-**3DS games** can become their own HOME Menu title, with their own icon and
-save: turn on **HOME** on the seed screen. It is a full copy of the game
-(about 50 minutes on a New 3DS XL) and is still being tested on
-consoles. The quick way is **Activate in Luma**, which plays it through
-Luma3DS game patching with the original game's save, so back that save up
-with Checkpoint first.
+**The HOME Menu:** turn on **HOME** on the seed screen (or pick **Add to
+HOME Menu** on the game's page) and the randomized game gets its own HOME
+Menu icon, with the name you gave it. It needs the CIA build, started from
+the HOME Menu. GB to DS games also get an animated banner with that name.
 
-GB and GBA games play in mGBA or any emulator; DS games in TWiLight Menu++
-or on a flashcart.
+- **GB and GBC games** start in mGBA. Install its development build: in
+  **Universal-Updater**, pick **mGBA** and install **"[git] mgba.cia"** (the
+  stable mGBA can't open a game from another icon).
+- **GBA games** become a Virtual Console title with its own save, in the
+  3DS's own GBA mode (about a minute to install). Quit with **HOME**, then
+  **A**: the save is written only then.
+- **DS games** start with nds-bootstrap. Install the **"YANBF Forwarder
+  Pack"** with **Universal-Updater**.
+- **3DS games** become a full copy with their own save (about 50 minutes on
+  a New 3DS XL). The quick way is **Activate in Luma**, which plays it
+  through Luma3DS game patching with the original game's save, so back that
+  save up with Checkpoint first.
+
+Without the HOME Menu, GB, GBC and GBA games play in mGBA or any emulator;
+DS games in TWiLight Menu++ or on a flashcart.
 
 <details>
 <summary><b>Troubleshooting</b></summary>
