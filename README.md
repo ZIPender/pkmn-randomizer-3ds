@@ -2,22 +2,34 @@
 
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
-**No beta in testing right now.** The latest release is
-[2.2.0](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/2.2.0).
-Until the next beta comes out, this QR code installs 2.2.0, the same as the
-[main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
-
-Thanks to everyone who tested 2.2.0 beta 1 to 4: every generation on the
-HOME Menu, with your game's name and an animated banner, Every family
-catchable and shiny odds for Gen 3 are in 2.2.0.
-
-## When a beta is out
+**2.2.1 beta 1** is a test build of the next version. The stable version,
+2.2.0, is on the [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
 
 1. On your 3DS, open **FBI** › **Remote Install** › **Scan QR Code**.
 2. Point the camera at this code. It always installs the newest beta, over
    the version you have: your settings and randomized games stay.
-3. Start **Pokemon Randomizer** from the HOME Menu. The first screen shows the
-   beta's version.
+3. Start **Pokemon Randomizer** from the HOME Menu. The first screen says
+   **Version 2.2.1 beta 1**.
+
+No camera handy? Copy `pokemon-randomizer.cia` from the
+[beta release](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/beta-latest)
+to the SD card and install it with FBI. Use the CIA rather than the `.3dsx`:
+the installed app gets more memory than the Homebrew Launcher one, and only
+the installed app can put games on the HOME Menu.
+
+## New in beta 1
+
+- **New folders.** In **Options › Randomized games folder**, the **+** at the
+  top right (or **X**) opens the keyboard: type a name and the folder is
+  made where you are, then opened. Choose **Use this folder** to keep it.
+  A name with `\ / : * ? " < > |` is refused, and a folder that is already
+  there is just opened.
+
+## What to test
+
+- Make a folder with **+**, choose **Use this folder**, then randomize a
+  game: it should land in the new folder.
+- Try a name with a `/`, and the name of a folder that is already there.
 
 Report what you see on the
 [issues page](https://github.com/ZIPender/pkmn-randomizer-3ds/issues), with
@@ -27,6 +39,3 @@ comes from, the settings code and seed, and the file
 
 Unofficial fan project, not affiliated with Nintendo, Game Freak, Creatures
 or The Pokémon Company. It contains no game data: use games you own.
-
-The app includes curl, Mbed TLS and zlib for its update check: see
-[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
