@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.2.1: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
+  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.3.0: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
 </p>
 
 <p align="center">
@@ -67,6 +67,9 @@ wrong.
    game card are found by themselves.
 2. Tap **Randomize**, pick a game and a style: **Casual**, **Standard**,
    **Chaos**, or **Custom**, where the top screen explains every option.
+   Several copies or ROM hacks of one game? Press **Y** or tap the pencil
+   to give each its own name: it stays on the SD card, even if you move
+   the file.
 3. Keep or roll a seed, then **Generate**. The same game, seed and settings
    code always give the same result, so you can race friends.
 4. The game is saved in its own folder, like
