@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.3.0: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
+  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.4.0: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
 </p>
 
 <p align="center">
@@ -85,6 +85,11 @@ preset or type your own, like 1 in 36), with a spoiler log for when you're
 stuck. **Every family catchable** (Customize › Wild) gives the first form of
 every evolution family a wild spot, so the whole Pokédex can be filled in one
 game.
+
+**Cheats** (Customize › Cheats), in every game: **Instant text** shows each
+text box at once, battle text included, and **Starting items** puts what you
+pick in the bag of a new game, like 999 Rare Candies for a Nuzlocke. Cheats
+are kept for each game and are not part of the settings code.
 
 **Updates:** the app checks GitHub for a new version when it starts and asks
 before downloading it (turn it off in **Options › Check for updates**). It
