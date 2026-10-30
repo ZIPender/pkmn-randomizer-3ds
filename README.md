@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.4.0: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
+  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.4.1: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
 </p>
 
 <p align="center">
@@ -67,9 +67,10 @@ wrong.
    game card are found by themselves.
 2. Tap **Randomize**, pick a game and a style: **Casual**, **Standard**,
    **Chaos**, or **Custom**, where the top screen explains every option.
-   Several copies or ROM hacks of one game? Press **Y** or tap the pencil
-   to give each its own name: it stays on the SD card, even if you move
-   the file.
+   On a style, **Y** lists everything it changes and **X** starts Custom
+   from it. Several copies or ROM hacks of one game? On the game list,
+   press **Y** or tap the pencil to give each its own name: it stays on
+   the SD card, even if you move the file.
 3. Keep or roll a seed, then **Generate**. The same game, seed and settings
    code always give the same result, so you can race friends.
 4. The game is saved in its own folder, like
@@ -87,9 +88,10 @@ every evolution family a wild spot, so the whole Pokédex can be filled in one
 game.
 
 **Cheats** (Customize › Cheats), in every game: **Instant text** shows each
-text box at once, battle text included, and **Starting items** puts what you
-pick in the bag of a new game, like 999 Rare Candies for a Nuzlocke. Cheats
-are kept for each game and are not part of the settings code.
+text box at once, battle text included (Standard and Chaos turn it on), and
+**Starting items** puts what you pick in the bag of a new game, like 999 Rare
+Candies for a Nuzlocke. Cheats are kept for each game and are not part of the
+settings code.
 
 **Updates:** the app checks GitHub for a new version when it starts and asks
 before downloading it (turn it off in **Options › Check for updates**). It
