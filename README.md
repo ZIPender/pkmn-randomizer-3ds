@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.4.1: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
+  <img src="media/hero.png" width="100%" alt="Pokemon Randomizer for Nintendo 3DS, version 2.4.2: your games, randomized on the console itself. GB, GBC, GBA, DS and 3DS games, Gen 1 to 7, 28 games. Scan the QR code with FBI to install it.">
 </p>
 
 <p align="center">
@@ -83,9 +83,10 @@ wrong.
 in-game trades, stats, types, abilities, evolutions, moves and TMs, items
 on the ground, and the shiny odds of wild Pokémon (Gen 2 to 7: pick a
 preset or type your own, like 1 in 36), with a spoiler log for when you're
-stuck. **Every family catchable** (Customize › Wild) gives the first form of
-every evolution family a wild spot, so the whole Pokédex can be filled in one
-game.
+stuck. A gift the story can't go on without stays as it is (Korrina's Lucario
+in X and Y). **Every family catchable** (Customize › Wild) gives the first
+form of every evolution family a wild spot, so the whole Pokédex can be filled
+in one game.
 
 **Cheats** (Customize › Cheats), in every game: **Instant text** shows each
 text box at once, battle text included (Standard and Chaos turn it on), and
