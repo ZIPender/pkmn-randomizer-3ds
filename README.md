@@ -3,12 +3,12 @@
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
 **No beta in testing right now.** The latest release is
-[2.4.2](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/2.4.2).
-Until the next beta comes out, this QR code installs 2.4.2, the same as the
+[2.4.3](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/2.4.3).
+Until the next beta comes out, this QR code installs 2.4.3, the same as the
 [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
 
-Thanks to the player who reported the Tower of Mastery freeze in X and Y:
-the fix from 2.4.2 beta 1, Korrina's Lucario staying Lucario, is in 2.4.2.
+Thanks to the player who reported Korrina's battle in X and Y: in 2.4.3 her
+gift is random again, and it can still Mega Evolve.
 
 ## When a beta is out
 
