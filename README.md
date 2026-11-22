@@ -2,14 +2,14 @@
 
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
-**2.5.0 beta 1** is a test build of the next version. The stable version,
+**2.5.0 beta 2** is a test build of the next version. The stable version,
 2.4.4, is on the [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
 
 1. On your 3DS, open **FBI** › **Remote Install** › **Scan QR Code**.
 2. Point the camera at this code. It always installs the newest beta, over
    the version you have: your settings and randomized games stay.
 3. Start **Pokemon Randomizer** from the HOME Menu. The first screen says
-   **Version 2.5.0 beta 1**.
+   **Version 2.5.0 beta 2**.
 
 No camera handy? Copy `pokemon-randomizer.cia` from the
 [beta release](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/beta-latest)
@@ -17,7 +17,17 @@ to the SD card and install it with FBI. Use the CIA rather than the `.3dsx`:
 the installed app gets more memory than the Homebrew Launcher one, and only
 the installed app can put games on the HOME Menu.
 
-## New in beta 1
+## New in beta 2
+
+- **Double battles in Diamond, Pearl, Platinum, HeartGold, SoulSilver,
+  Black, White, Black 2 and White 2.** They follow the Game Boy Advance
+  rule: a trainer fights you in a single battle while you have only one
+  Pokémon able to fight, and in a real double battle once you have two.
+  Your rival's first battle stays single. In these games a trainer made
+  double speaks its single battle lines. Beta 1 left these games with single
+  battles: make yours again with this beta to get double battles.
+
+## New in 2.5.0 (beta 1 and 2)
 
 - **Alternate forms** (General tab, on in every style). A Pokémon the
   randomizer places can come in any of its real forms: Alolan Vulpix,
@@ -28,18 +38,17 @@ the installed app can put games on the HOME Menu.
   Pokémon; Black/White and Black 2/White 2: wild and trainers' Pokémon; X to
   Ultra Moon: also legendaries, gifts and fossils. The spoiler log names each
   form, for example "Geodude (Alola)".
-- **Double battles** (Customize › Trainers, off by default; Gen 3, 6 and 7).
-  Every trainer battle becomes a double battle. A trainer with a single
-  Pokémon gets a second one of the same level, marked "added for doubles" in
-  the spoiler log. Partners who fight beside you, battle facilities and the
-  games' own two-trainer battles stay as they are. In Ruby, Sapphire,
-  Emerald, FireRed and LeafGreen a trainer fights you in a single battle
-  while you have only one Pokémon able to fight, and your rival's first
-  battle stays single. From X and Y on your one Pokémon faces both, and a
-  Bulbasaur stands in your empty spot (in X, Y, Omega Ruby and Alpha
-  Sapphire with a "Lv 999" box): a stand-in that never acts, and the battle
-  ends when your last Pokémon faints. Not in Black, White, Black 2 and
-  White 2 yet: there, one Pokémon against two froze the game in testing.
+- **Double battles** (Customize › Trainers, off by default; every game from
+  Ruby and Sapphire on). Every trainer battle becomes a double battle. A
+  trainer with a single Pokémon gets a second one of the same level, marked
+  "added for doubles" in the spoiler log. Partners who fight beside you,
+  battle facilities and the games' own two-trainer battles stay as they are.
+  From Ruby and Sapphire to Black 2 and White 2, a trainer fights you in a
+  single battle while you have only one Pokémon able to fight, and your
+  rival's first battle stays single. From X and Y on your one Pokémon faces
+  both, and a Bulbasaur stands in your empty spot (in X, Y, Omega Ruby and
+  Alpha Sapphire with a "Lv 999" box): a stand-in that never acts, and the
+  battle ends when your last Pokémon faints.
 - **Special shops** (Customize › Items; *Shuffle* in Standard, *Random* in
   Chaos; [issue #7](https://github.com/ZIPender/pkmn-randomizer-3ds/issues/7)).
   What the special shops sell changes: the second clerk of a Poké Mart,
@@ -66,7 +75,7 @@ the installed app can put games on the HOME Menu.
 Tested before this beta, in emulators and on real dumps:
 
 - Every game opens, randomizes and saves with each new option, in every
-  style (about 390,000 automated checks on 35 game dumps, plus fault and
+  style (about 395,000 automated checks on 35 game dumps, plus fault and
   memory tests).
 - **Totems:** in Ultra Sun a randomized Totem showed its aura, used its
   ability and called a randomized ally.
@@ -74,16 +83,18 @@ Tested before this beta, in emulators and on real dumps:
   the spoiler log, and an item could be bought; the Poké Ball and Potion
   clerk stayed the same.
 - **Double battles:** Emerald and FireRed (single battle with one Pokémon,
-  real double battle with two, rival kept single); Ultra Sun (one Pokémon
-  against two, a loss sends you home as usual) and X (the same).
+  real double battle with two, rival kept single); Diamond, Platinum,
+  HeartGold, White and Black 2 (beta 2: a single battle with one Pokémon, a
+  real double battle with two, each played to the end); Ultra Sun (one
+  Pokémon against two, a loss sends you home as usual) and X (the same).
 - **Alternate forms:** a trainer's Unown in Ultra Sun showed the form the
   spoiler log names.
 
 Not yet seen in a game: the shops of the DS and 3DS games other than
-Platinum and Sun, Totems in Sun and Moon, a won battle in Double battles,
-the double battles of Ruby, Sapphire, LeafGreen, Y, Omega Ruby and Alpha
-Sapphire, and forms outside Ultra Sun (wild Pokémon in the DS
-games, legendaries and gifts on 3DS).
+Platinum and Sun, Totems in Sun and Moon, the double battles of Ruby,
+Sapphire, LeafGreen, Pearl, SoulSilver, Black, White 2, Y, Omega Ruby and
+Alpha Sapphire, and forms outside Ultra Sun (wild Pokémon in the DS games,
+legendaries and gifts on 3DS).
 Feedback on those is the most useful. A freeze, a black screen or a
 Pokémon that looks wrong in battle is worth a report.
 
