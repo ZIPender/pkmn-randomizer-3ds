@@ -25,6 +25,10 @@ the installed app can put games on the HOME Menu.
   first battles with your rival and friend in X, Y, Omega Ruby and Alpha
   Sapphire. If you made a 3DS game with Double battles, make it again with
   this beta (same seed and settings code) before that battle.
+- **Fix: the settings code on the Seed screen ended in "..."**
+  ([issue #7](https://github.com/ZIPender/pkmn-randomizer-3ds/issues/7)).
+  The three new settings made it too long for one line: it now shows in full
+  on two lines.
 
 ## New in beta 2
 
