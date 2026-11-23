@@ -2,20 +2,29 @@
 
 <img align="right" src="beta-qr.png" width="168" alt="QR code that installs the Pokemon Randomizer beta through FBI">
 
-**2.5.0 beta 2** is a test build of the next version. The stable version,
+**2.5.0 beta 3** is a test build of the next version. The stable version,
 2.4.4, is on the [main page](https://github.com/ZIPender/pkmn-randomizer-3ds).
 
 1. On your 3DS, open **FBI** › **Remote Install** › **Scan QR Code**.
 2. Point the camera at this code. It always installs the newest beta, over
    the version you have: your settings and randomized games stay.
 3. Start **Pokemon Randomizer** from the HOME Menu. The first screen says
-   **Version 2.5.0 beta 2**.
+   **Version 2.5.0 beta 3**.
 
 No camera handy? Copy `pokemon-randomizer.cia` from the
 [beta release](https://github.com/ZIPender/pkmn-randomizer-3ds/releases/tag/beta-latest)
 to the SD card and install it with FBI. Use the CIA rather than the `.3dsx`:
 the installed app gets more memory than the Homebrew Launcher one, and only
 the installed app can put games on the HOME Menu.
+
+## New in beta 3
+
+- **Fix: Ultra Sun crashed at Hau's first battle with Double battles on**
+  (a player's report). Your rival's first battle now stays single in every
+  game: Hau's first battle in Sun, Moon, Ultra Sun and Ultra Moon, and the
+  first battles with your rival and friend in X, Y, Omega Ruby and Alpha
+  Sapphire. If you made a 3DS game with Double battles, make it again with
+  this beta (same seed and settings code) before that battle.
 
 ## New in beta 2
 
@@ -27,7 +36,7 @@ the installed app can put games on the HOME Menu.
   double speaks its single battle lines. Beta 1 left these games with single
   battles: make yours again with this beta to get double battles.
 
-## New in 2.5.0 (beta 1 and 2)
+## New in 2.5.0 (betas 1 to 3)
 
 - **Alternate forms** (General tab, on in every style). A Pokémon the
   randomizer places can come in any of its real forms: Alolan Vulpix,
@@ -42,10 +51,10 @@ the installed app can put games on the HOME Menu.
   Ruby and Sapphire on). Every trainer battle becomes a double battle. A
   trainer with a single Pokémon gets a second one of the same level, marked
   "added for doubles" in the spoiler log. Partners who fight beside you,
-  battle facilities and the games' own two-trainer battles stay as they are.
-  From Ruby and Sapphire to Black 2 and White 2, a trainer fights you in a
-  single battle while you have only one Pokémon able to fight, and your
-  rival's first battle stays single. From X and Y on your one Pokémon faces
+  battle facilities and the games' own two-trainer battles stay as they are,
+  and your rival's first battle stays single. From Ruby and Sapphire to
+  Black 2 and White 2, a trainer fights you in a single battle while you have
+  only one Pokémon able to fight. From X and Y on your one Pokémon faces
   both, and a Bulbasaur stands in your empty spot (in X, Y, Omega Ruby and
   Alpha Sapphire with a "Lv 999" box): a stand-in that never acts, and the
   battle ends when your last Pokémon faints.
@@ -90,7 +99,8 @@ Tested before this beta, in emulators and on real dumps:
 - **Alternate forms:** a trainer's Unown in Ultra Sun showed the form the
   spoiler log names.
 
-Not yet seen in a game: the shops of the DS and 3DS games other than
+Not yet seen in a game: Hau's first battle with beta 3 (now a single battle,
+as in the unchanged game), the shops of the DS and 3DS games other than
 Platinum and Sun, Totems in Sun and Moon, the double battles of Ruby,
 Sapphire, LeafGreen, Pearl, SoulSilver, Black, White 2, Y, Omega Ruby and
 Alpha Sapphire, and forms outside Ultra Sun (wild Pokémon in the DS games,
